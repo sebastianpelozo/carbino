@@ -12,53 +12,59 @@
 </head>
 
 <body>
-      <header id="nav">  
-        <div>
-          <div>
-            <div width="20px">
-              <a href="index.html"><img id="logo" src="img/logo_blackwhite2.jpg"></img></a>
-            </div>
-            <div>
-              <h1 id="nav-center">CARBINO</h1>
-            </div>
-          </div>
-
-          <nav id="nav-right">  
-            <ul id="nav-btn">
-              <li><a title="Contacto" href="contact.html">CONTACTO</a></li>
-              <li><a title="Empresa" href="company.html">NUESTRA EMPRESA</a></li>
-              <li><a title="Productos" href="products.html">PRODUCTOS Y SERVICIOS</a></li>
-            </ul>     
+  <header>
+      <div class="container">
+          <nav class="row">
+              <div class="col-2">
+                  <a href="index.html"><img id="logo" src="img/logo_blackwhite2.jpg"></img></a>
+              </div>
+              <div class="col-3">
+                  <a href="index.html">CARBINO</a>
+              </div>
+              <div class="col-4 end">
+                  <ul class="row between">
+                      <li><a title="Contacto" href="contact.html">Contacto</a></li>
+                      <li><a title="Empresa" href="company.html">Empresa</a></li>
+                      <li><a title="Productos" href="products.html">Productos</a></li>
+                  </ul>     
+              </div>
           </nav>
-        </div>
+        
+      </div>
+  </header>
+       
         <div>
           <div class="celeste"></div>
           <div class="blanco"></div>
           <div class="celeste"></div>
         </div>  
-      </header>
-      <br/>
-      <br/>
-      <section>
-          <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-              <div class="gallery-cell"><img src="img/image12.jpg" alt="1" width="100%" height="400px">
-                    <p class="textslider">Productos de alta calidad</p>
-                    <p class="textslider2">Con el trabajo  pujante de la zona</p>
-                  </div>        
+  
+  <section style="height: 410px">
+      <div class="container">
+          <div class="row col-12">
+              <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                  <div class="gallery-cell"><img src="img/image12.jpg" alt="1" width="100%" height="400px">
+                        <p class="textslider">Productos de alta calidad</p>
+                        <p class="textslider2">Con el trabajo  pujante de la zona</p>
+                      </div>        
 
-              <div class="gallery-cell"><img src="img/image14.jpg" alt="2" width="1400px" height="400px">
-                    <p class="textslider">Confianza y Seguridad</p>
-                    <p class="textslider2">Valorando a nuestros clientes ante todo</p>
+                  <div class="gallery-cell"><img src="img/image14.jpg" alt="2" width="1400px" height="400px">
+                        <p class="textslider">Confianza y Seguridad</p>
+                        <p class="textslider2">Valorando a nuestros clientes ante todo</p>
                   </div>
 
+              </div>
           </div>
-          </section>
-      <br/>
-      <br/>
-
-    <footer class="footer-gral">
-      &copy; Copyright Carbino 2011-2015 - All Rights Reserved
-    </footer>
+      </div>
+  </section>
+  
+  <footer>
+      <div class="container">
+         <div class="row col-12" style="text-align: center">
+               &copy; Copyright Carbino 2011-2015 - All Rights Reserved
+         </div>
+      </div>  
+  </footer>
    
 </body>
 </html>
